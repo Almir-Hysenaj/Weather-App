@@ -1,4 +1,4 @@
-# My Vitre React Project
+# My Weather App Project
 
 Live site: [https://almir-hysenaj.github.io/Weather-App/](https://almir-hysenaj.github.io/Weather-App/)
 
