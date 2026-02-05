@@ -1,3 +1,9 @@
+# My Vitre React Project
+
+Live site: [https://almir-hysenaj.github.io/Weather-App/](https://almir-hysenaj.github.io/Weather-App/)
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
