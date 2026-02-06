@@ -62,7 +62,7 @@ export function Weather() {
   }, []);
 
   return (
-    <div className="place-self-center flex flex-col w-[75%] items-center gap-10 bg-center bg-cover bg-no-repeat">
+    <div className="place-self-center flex flex-col w-full max-w-4xl px-4 items-center gap-10 bg-center bg-cover bg-no-repeat">
       {/* Search Bar Section */}
       <SearchBar onSearch={search} />
 

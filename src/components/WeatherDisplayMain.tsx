@@ -15,20 +15,20 @@ interface WeatherDisplayProps {
 
 export const WeatherDisplayMain: React.FC<WeatherDisplayProps> = ({ data }) => {
   return (
-    <div className="w-full place-self-center p-10 bg-white/10 backdrop-blur-sm rounded-xl shadow-lg flex flex-col items-center">
+    <div className="w-full place-self-center p-6 sm:p-10 bg-white/10 backdrop-blur-sm rounded-xl shadow-lg flex flex-col items-center">
       {/* Weather Icon */}
       <img src={data.icon} alt="weather-icon" className="w-37.5 my-7.5 mx-0" />
 
       {/* Temperature */}
-      <p className="text-white text-[80px] leading-none">
+      <p className="text-white text-5xl sm:text-[80px] leading-none">
         {data.temperature}°C
       </p>
 
       {/* Location */}
-      <p className="text-white text-[40px]">{data.location}</p>
+      <p className="text-white text-2xl sm:text-[40px]">{data.location}</p>
 
       {/* Weather Data: Humidity & Wind */}
-      <div className="w-full mt-10 text-white flex justify-between">
+      <div className="w-full mt-10 text-white flex flex-col sm:flex-row gap-6 sm:justify-between">
         {/* Humidity */}
         <div className="flex items-start gap-3 text-[22px]">
           <img
