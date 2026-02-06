@@ -26,7 +26,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
       <img
         src={search_icon}
         alt="search-icon"
-        className="w-12.5 h-12.5 p-3.75 cursor-pointer hover:scale-110 ease-in-out transition-transform duration-200"
+        className="w-12.5 h-12.5 p-3.75 cursor-pointer hover:scale-105 ease-in-out transition-transform duration-200"
         onClick={() => {
           onSearch((inputRef.current?.value || '').trim());
         }}
